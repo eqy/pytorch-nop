@@ -8,7 +8,7 @@ def conv2d():
 
 def cholesky():
   a = torch.eye(1, device='cuda')
-  a.cholseky()
+  a.cholesky()
 
 if __name__ == '__main__':
   conv2d()
